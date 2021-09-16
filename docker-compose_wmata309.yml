@@ -5,7 +5,7 @@ services:
     ports:
       - "8002:8002"
     volumes:
-      - ./custom_files_wmata/:/custom_files
+      - ./custom_files_wmata309/:/custom_files
     environment:
       # The tile_file must be located in the `custom_files` folder.
       # The tile_file has priority and is used when valid.
@@ -19,9 +19,10 @@ services:
       - max_x=-76.57026 # -> dc region bbox |  180 -> World
       - max_y=39.79251 # -> dc region bbox |  90  -> World
       - use_tiles_ignore_pbf=False
+      # Some of these can be toggled on, but they make startup a bit slow, i think unnecessary too
       - force_rebuild=False
       - force_rebuild_elevation=False
       - build_elevation=False
-      - build_admins=True
+      - build_admins=False
       - build_time_zones=False
 
