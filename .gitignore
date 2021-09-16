@@ -48,3 +48,9 @@ Thumbs.db
 *.mov
 *.wmv
 
+*.pbf
+*.sqlite
+*.hgt
+*.tar
+*.sqlite-journal
+*.json
