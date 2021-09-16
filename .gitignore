@@ -54,3 +54,4 @@ Thumbs.db
 *.tar
 *.sqlite-journal
 *.json
+.file_hashes.txt
