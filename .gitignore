@@ -55,3 +55,4 @@ Thumbs.db
 *.sqlite-journal
 *.json
 .file_hashes.txt
+*.gph
