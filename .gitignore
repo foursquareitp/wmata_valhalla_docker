@@ -56,3 +56,4 @@ Thumbs.db
 *.json
 .file_hashes.txt
 *.gph
+*.polyline
